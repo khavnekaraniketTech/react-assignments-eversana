@@ -1,7 +1,7 @@
 #  React Assignments Assessment 
 
 A comprehensive React application demonstrating advanced component state handling, API integrations, dynamic forms, and performance optimization. Built with **Vite, React, TypeScript, and Tailwind CSS**.
-
+Live App Vercel - https://react-assignments-eversana-d6t1.vercel.app/assignment-1
 ## 📸 Screenshots
 Assigment-1
 
