@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useCallback, useEffect } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import { Virtuoso } from 'react-virtuoso';
 import axios from 'axios';
 import ProductItem from './ProductItem';
