@@ -58,3 +58,24 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/khavnekaraniketTech/react-assignments-eversana.git
+
+2. Navigate into the Project Directory
+Change your working directory to the project's root folder:
+
+Bash
+cd react-assignments-eval
+3. Install Project Dependencies
+Run this command to install all required packages (including React, TypeScript, Tailwind CSS, React Hook Form, and React Virtuoso) into your local node_modules folder:
+
+Bash
+npm install
+
+4. Run the Development Server
+Start the local Vite development server to test the application locally:
+
+Bash
+npm run dev
+
+5. Open the Application
+Once the server starts, you will see a local URL in your terminal. Usually, it is:
+ http://localhost:5173/
