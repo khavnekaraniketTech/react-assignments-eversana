@@ -1,75 +1,60 @@
-# React + TypeScript + Vite
+#  React Assignments Assessment 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive React application demonstrating advanced component state handling, API integrations, dynamic forms, and performance optimization. Built with **Vite, React, TypeScript, and Tailwind CSS**.
 
-Currently, two official plugins are available:
+## 📸 Screenshots
+Assigment-1
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<img width="1912" height="961" alt="image" src="https://github.com/user-attachments/assets/844b4dfd-8874-43a2-8d5b-0b0b8951be1c" />
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<img width="1912" height="945" alt="image" src="https://github.com/user-attachments/assets/fc3a148e-5205-4aac-8d3e-f4b190c3f11d" />
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<img width="1911" height="952" alt="image" src="https://github.com/user-attachments/assets/ade7371a-9488-46f2-9938-6cc1197d962d" />
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Assigent-2
+<img width="1917" height="935" alt="image" src="https://github.com/user-attachments/assets/ab94ebec-7367-4dd9-b08a-a13da85dd68e" />
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🎯 Objectives Completed
 
-```
+### Assignment 1: Reusable Form + API Integration
+* Built a robust User Registration form (Name, Email, Password, Confirm Password).
+* Implemented strict client-side validation with inline error messages using `react-hook-form`.
+* Integrated with mock APIs (JSONPlaceholder / ReqRes) for data submission and fetching.
+* Handled complex UI states including loading spinners, success alerts, and error boundaries.
+* Created a scalable, modular layout shell featuring a responsive Navbar and Sidebar.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Assignment 2: Performance Optimization
+* Rendered a massive list of **5,000 components** without browser lag.
+* Implemented seamless, real-time search and filtering.
+* Utilized **React.memo**, **useCallback**, and **useMemo** to prevent unnecessary re-renders.
+* Integrated **List Virtualization** (`react-virtuoso`) for 60FPS scrolling performance.
+* Fetched and processed real data from the DummyJSON API.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠️ Tech Stack
 
-```
+* **Framework:** React 18 (Vite)
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS
+* **Routing:** React Router v6
+* **Forms & Validation:** React Hook Form
+* **Data Fetching:** Axios
+* **Performance / Virtualization:** React Virtuoso
+
+---
+
+## ⚙️ Local Setup Instructions
+
+Follow these steps to get the project running on your local machine.
+
+### Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/khavnekaraniketTech/react-assignments-eversana.git
